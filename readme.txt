@@ -11,11 +11,11 @@ Top App est un plugin qui affiche en sidebar le top des applications iPad de l'A
 
 == Description ==
 
-<strong>Top App</strong> va rechercher le top des application de l'AppStore et va les afficher dans votre sidebar via un widget. Le plugin intègre un système de cache, qui se rafraîchit une fois par jour. Pour l'activer il suffit de créer un répertoire nommé "cache", dans le répertoire racine de votre installation wordpress, et lui donner les droits suffisant pour que le plugin puisse écrire dessus.<br/>
+<strong>Top App</strong> va rechercher le top des application de l'AppStore et va les afficher dans votre sidebar via un widget. Le plugin intègre un système de cache, qui se rafraîchit une fois par jour. Pour l'activer il suffit de créer un répertoire nommé "cache", dans le répertoire racine de votre installation wordpress, et lui donner les droits suffisant pour que le plugin puisse écrire dessus.
 	Vous pouvez insérer automatiquement votre lien d'affiliation, pour cela il faut modifier le fichier top_app.php, à la ligne 49, vous devez insérer votre url tradedoubler
 
-<br/>Les versions suivantes intégreront la possibilité de mettre votre url directement dans wordpress.
-<br/>Pour le moment seul le top iPad des applications payantes sont disponibles, dans les futures versions, il sera possible de modifier les top.<br/>
+- Les versions suivantes intégreront la possibilité de mettre votre url directement dans wordpress.
+- Pour le moment seul le top iPad des applications payantes sont disponibles, dans les futures versions, il sera possible de modifier les top.
 Vous pouvoir voir une démo du plugin sur ce <a href="http://www.ipad-apple.net/">blog iPad</a> 
 
 == Installation ==
