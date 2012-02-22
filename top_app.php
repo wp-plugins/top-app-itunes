@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Top_App 
+Plugin Name: Top App 
 Plugin URI: http://www.foolish-media.com
-Description: Top App est un plugin qui affiche en sidebar le top des App pour iOS
+Description: Top App est un plugin qui affiche en sidebar le top des applications iPad de l'AppStore avec votre lien d'affiliation 
 Version: 0.5.0
 Author: <a href="http://www.foolish-media.com/">Jean Baptiste Marchand-Arvier</a>
 Author URI: http://www.foolish-media.com
