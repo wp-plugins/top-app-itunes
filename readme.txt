@@ -20,7 +20,10 @@ Vous pouvoir voir une démo du plugin sur ce <a href="http://www.ipad-apple.net/
 
 == Installation ==
 
-Extraire le fichier zip et d&eacute;posez simplement le contenu dans le r&eacute;pertoire wp-content/plugins/ de votre installation de WordPress, puis activez le plugin depuis la page Plugins, et ajoutez le widget dans votre sidebar.
+1. Extraire le fichier zip 
+2. d&eacute;posez  le contenu dans le r&eacute;pertoire wp-content/plugins/ de votre installation de WordPress
+3. Activer le plugin depuis la page Plugins
+4. Ajouter le widget dans votre sidebar.
 
 
 == Changelog ==
