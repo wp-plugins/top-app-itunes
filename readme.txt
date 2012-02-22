@@ -1,8 +1,8 @@
 === Top App ===
 Contributors: jbma
 Donate link: http://www.foolish-media.com
-Author URI: http://www.foolish-media.com/
-Plugin URI: http://www.foolish-media.com/
+Author URI: http://foolish-media.com/top-applications-appstore-plugin-wordpress/
+Plugin URI: http://foolish-media.com/top-applications-appstore-plugin-wordpress/
 Tags: top, app,iPad, itunes, application
 Requires at least: 3.0
 Tested up to: 3.2
