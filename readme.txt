@@ -7,7 +7,7 @@ Tags: top, app,iPad, itunes, application
 Requires at least: 3.0
 Tested up to: 3.2
 
-Top App est un plugin qui affiche en sidebar le top des applications iPad de l'AppStore avec votre lien d'affiliation en option.
+Top App est un plugin qui affiche en sidebar le top des applications iPhone ou iPad de l'AppStore avec votre lien d'affiliation en option.
 
 == Description ==
 
