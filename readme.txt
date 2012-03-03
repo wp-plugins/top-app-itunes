@@ -20,7 +20,7 @@ Les options vous permettent de mettre votre lien d'affiliation et de choisir le 
 1. Activez le plugin depuis la page Plugins 
 2. En option configurez le dans l'option de configuration
 3. Activez le widget dans votre sidebar
-4. 
+
 
 == Screenshots==
 
