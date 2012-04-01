@@ -8,7 +8,7 @@ Author: <a href="http://www.foolish-media.com/">Jean Baptiste Marchand-Arvier</a
 Author URI: http://www.foolish-media.com
 */
 
-load_plugin_textdomain('topapp','/wp-content/plugins/top app/lang/');
+load_plugin_textdomain('topapp','/wp-content/plugins/top-app-itunes/lang/');
 
 function topapp_admin() {  
     include('topapp_admin.php');  
