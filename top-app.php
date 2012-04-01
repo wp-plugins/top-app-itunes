@@ -3,10 +3,12 @@
 Plugin Name: Top App 
 Plugin URI: http://foolish-media.com/top-applications-appstore-plugin-wordpress/
 Description: Top App est un plugin qui affiche en sidebar le top des applications iPad de l'AppStore avec votre lien d'affiliation 
-Version: 1.0
+Version: 1.1
 Author: <a href="http://www.foolish-media.com/">Jean Baptiste Marchand-Arvier</a>
 Author URI: http://www.foolish-media.com
 */
+
+load_plugin_textdomain('topapp','/wp-content/plugins/top app/lang/');
 
 function topapp_admin() {  
     include('topapp_admin.php');  
@@ -16,7 +18,8 @@ function topapp_admin() {
 
 function topapp_admin_actions() {  
     add_options_page("Top App Configuration", "Top App Configuration", 1, "topapp_admin", "topapp_admin");  
-}  
+} 
+ 
   
 add_action('admin_menu', 'topapp_admin_actions');  
 
@@ -33,6 +36,7 @@ function clean_text($text, $length = 0) {
 function top_app(){
 $plugin_dir_path = dirname(__FILE__);
 $cat_config1= get_option ('topapp_cat'); 
+$url_lang= __('url-langue','topapp'); 
 	if ($cat_config1 =='iPad') {
 		$url_p="ipad";}
 	elseif ($cat_config1 =='iPhone'){
@@ -51,7 +55,7 @@ $timedif = @(time() - filemtime($cache_file));
 if (file_exists($cache_file) && $timedif < $cache_time) {
     $applefeed = file_get_contents($cache_file);
 } else {
-    $applefeed = file_get_contents('http://itunes.apple.com/fr/rss/toppaid'.$url_p.'applications/limit=10/xml');
+    $applefeed = file_get_contents('http://itunes.apple.com/'.$url_lang.'/rss/toppaid'.$url_p.'applications/limit=10/xml');
     if ($f = @fopen($cache_file, 'w')) {
         fwrite ($f, $applefeed, strlen($applefeed));
         fclose($f);
@@ -59,7 +63,7 @@ if (file_exists($cache_file) && $timedif < $cache_time) {
 }
 
 
-$applefeed = file_get_contents('http://itunes.apple.com/fr/rss/toppaid'.$url_p.'applications/limit=10/xml');
+//$applefeed = file_get_contents('http://itunes.apple.com/'.$url_lang.'/rss/toppaid'.$url_p.'applications/limit=10/xml');
 $feed = new SimpleXMLElement($applefeed);
 
 foreach ($feed->entry as $entry) {
