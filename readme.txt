@@ -28,6 +28,9 @@ Les options vous permettent de mettre votre lien d'affiliation et de choisir le 
 2. Option de configuration
 == Changelog ==
 
+= Version 1.5.1 (1/04/2012) =
+*Résolution d'une erreur d'affichage
+
 = Version 1.5 (1/04/2012) =
 *Résolution d'un bug du cache
 *Traduction en Anglais
