@@ -28,6 +28,10 @@ Les options vous permettent de mettre votre lien d'affiliation et de choisir le 
 2. Option de configuration
 == Changelog ==
 
+= Version 1.5 (1/04/2012) =
+*Résolution d'un bug du cache
+*Traduction en Anglais
+
 = Version 1.0 (2/03/2012) =
 *Ajout de la page administration du plugin
 *Ajout du top iPhone en plus de l'iPad
