@@ -3,7 +3,7 @@
 Plugin Name: Top App 
 Plugin URI: http://foolish-media.com/top-applications-appstore-plugin-wordpress/
 Description: Top App est un plugin qui affiche en sidebar le top des applications iPad de l'AppStore avec votre lien d'affiliation 
-Version: 1.1
+Version: 1.1.1
 Author: <a href="http://www.foolish-media.com/">Jean Baptiste Marchand-Arvier</a>
 Author URI: http://www.foolish-media.com
 */
